@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/The-Shepherds.github.io/the-shepherds/static/css/main.f855e6bc.css",
+    "main.js": "/The-Shepherds.github.io/the-shepherds/static/js/main.7d4b2d2b.js",
+    "static/js/453.b6658116.chunk.js": "/The-Shepherds.github.io/the-shepherds/static/js/453.b6658116.chunk.js",
+    "static/media/logo.svg": "/The-Shepherds.github.io/the-shepherds/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/The-Shepherds.github.io/the-shepherds/index.html",
+    "main.f855e6bc.css.map": "/The-Shepherds.github.io/the-shepherds/static/css/main.f855e6bc.css.map",
+    "main.7d4b2d2b.js.map": "/The-Shepherds.github.io/the-shepherds/static/js/main.7d4b2d2b.js.map",
+    "453.b6658116.chunk.js.map": "/The-Shepherds.github.io/the-shepherds/static/js/453.b6658116.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.7d4b2d2b.js"
+  ]
+}
