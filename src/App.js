@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-/*random test note*/
+/*random test notes*/
 function App() {
   return (
     <div className="App">
