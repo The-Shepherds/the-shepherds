@@ -1,7 +1,7 @@
 {
   "name": "the-shepherds",
   "version": "0.1.0",
-  "homepage": "https://the-shepherds.github.io/the-shepherds",
+  "homepage": "https://The-Shepherds.github.io/the-shepherds",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
