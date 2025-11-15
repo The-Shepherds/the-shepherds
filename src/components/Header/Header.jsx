@@ -2,8 +2,8 @@ import "./header.css";
 
 function Header(){
     return(
-        <header>
-            <h1>The Shepherds</h1>
+        <header id="headerDiv">
+            <h1 id="headerTxt">The Shepherds</h1>
         </header>
     );
 };
