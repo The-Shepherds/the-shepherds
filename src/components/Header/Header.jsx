@@ -36,7 +36,7 @@ function Header(){
             <p>Step in the arena:</p>
             <p>Address: Little Elm, Texas</p>
             <p>Phone number: (714)296-4155 or (801)735-4675</p>
-            <p>Email: shepherdsoftheworld@gmail.com</p>
+            <p>Email: shepherdsnexus@gmail.com</p>
         </header>
     );
 };
