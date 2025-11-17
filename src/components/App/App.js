@@ -4,7 +4,9 @@ import {Header} from "../Header/Header.jsx";
 function App() {
   return (
     <div id="appDiv">
-      <Header />
+      <div id="backgroundImgDiv">
+        <Header />
+      </div>
     </div>
   );
 }
