@@ -7,7 +7,7 @@ import tiktokIcon from"./images/tiktokIcon.jpg";
 
 function Header(){
     return(
-        <header id="midHeaderDiv">
+        <div id="parentDiv">
             <h1 id="headerTxt">The Shepherds</h1>
             <p>"A Shepherd's duty is to push humanity towards a better future."  ~Jacob Larcabal</p>
             <p>Get to know us:</p>
@@ -37,7 +37,7 @@ function Header(){
             <p>Address: Little Elm, Texas</p>
             <p>Phone number: (714)296-4155 or (801)735-4675</p>
             <p>Email: shepherdsnexus@gmail.com</p>
-        </header>
+        </div>
     );
 };
 
