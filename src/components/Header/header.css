@@ -3,4 +3,17 @@
     align-items:center;
     justify-content:center;
     flex-direction:column;
-};
+}
+#socialDiv{
+    display:flex;
+}
+.socialIcons{
+    height:30px;
+    width:30px;
+}
+.socialIcons:hover{
+    cursor:pointer;
+    height:33px;
+    width:33px;
+    filter:brightness(80%);
+}
