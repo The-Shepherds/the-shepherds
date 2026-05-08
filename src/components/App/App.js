@@ -26,18 +26,6 @@ function App() {
           To push humanity toward a better future
         </p>
 
-        <p className="quote gladiatorQuote">
-          “Let us talk now, very simply as men.”...”There
-          was once a dream that was Rome. You could only
-          whisper it. Anything more than a whisper and it
-          would vanish. It was so fragile and I fear that
-          it will not survive the winter. Let us whisper
-          now, together you and I.”
-          <br />
-          <br />
-          ~The Movie: Gladiator
-        </p>
-
         <ol className="duties">
           <li>We have a duty to humanity to survive.</li>
 
@@ -94,6 +82,17 @@ function App() {
             in the majority of things.
           </li>
         </ol>
+        <p className="quote gladiatorQuote">
+          “Let us talk now, very simply as men.”...”There
+          was once a dream that was Rome. You could only
+          whisper it. Anything more than a whisper and it
+          would vanish. It was so fragile and I fear that
+          it will not survive the winter. Let us whisper
+          now, together you and I.”
+        <br />
+        <br />
+          ~The Movie: Gladiator
+        </p>
       </section>
     </div>
   );
