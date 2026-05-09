@@ -68,21 +68,28 @@ function App() {
 
       <h1>The Shepherds</h1>
 
-      <img
-        src={shepherdLogo}
-        alt="The Shepherds Logo"
-        id="heroImage"
-        loading="lazy"
-      />
+      <section className="heroSection">
 
-      <p className="quote">
-        “Iron sharpeneth iron; so a man sharpeneth the countenance of his
-        friend.”
-      </p>
+        <img
+          src={shepherdLogo}
+          alt="The Shepherds Logo"
+          id="heroImage"
+          loading="lazy"
+        />
 
-      <p className="verse">~Proverbs 27:17</p>
+        <p className="quote">
+          “Iron sharpeneth iron; so a man sharpeneth the
+          countenance of his friend.”
+        </p>
+
+        <p className="verse">
+          ~Proverbs 27:17
+        </p>
+
+      </section>
 
       <section className="codeSection">
+
         <h2>Code of Unlocking Human Potential</h2>
 
         <p className="mission">
@@ -90,7 +97,10 @@ function App() {
         </p>
 
         <ol className="duties">
-          <li>We have a duty to humanity to survive.</li>
+
+          <li>
+            We have a duty to humanity to survive.
+          </li>
 
           <li>
             We have a duty to prioritize humanity’s prosperity.
@@ -136,7 +146,9 @@ function App() {
             We have a duty to humanity to have moderation in the majority of
             things.
           </li>
+
         </ol>
+
       </section>
 
       <p className="quote gladiatorQuote">
