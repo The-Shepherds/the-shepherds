@@ -122,8 +122,21 @@ h1 {
     0px 4px 10px rgba(0, 0, 0, 0.18);
 }
 
-.heroSection {
+#heroImage {
+  width: min(45%, 310px);
+  height: auto;
+
+  border-radius: 10px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+
+  margin-top: 8px;
+}
+
+.proverbsSection {
   width: min(92%, 900px);
+
+  margin-top: 36px;
 
   background: linear-gradient(
     to bottom,
@@ -133,9 +146,7 @@ h1 {
 
   border-radius: 22px;
 
-  padding: 38px 30px 34px;
-
-  margin-top: 8px;
+  padding: 34px 30px 28px;
 
   display: flex;
   flex-direction: column;
@@ -148,19 +159,10 @@ h1 {
   box-sizing: border-box;
 }
 
-#heroImage {
-  width: min(45%, 310px);
-  height: auto;
-
-  border-radius: 10px;
-
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
-}
-
 .quote {
   width: min(92%, 850px);
 
-  margin-top: 42px;
+  margin-top: 0;
 
   text-align: center;
 
@@ -291,7 +293,7 @@ h1 {
     width: min(70%, 260px);
   }
 
-  .heroSection {
+  .proverbsSection {
     padding: 28px 18px 24px;
   }
 
