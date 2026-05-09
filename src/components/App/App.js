@@ -78,7 +78,7 @@ function App() {
     {
       text:
         "The culture of a people makes their government great, not the government.",
-      author: "~Jacob Larcaball",
+      author: "~Jacob Larcabal",
     },
 
     {
@@ -96,7 +96,7 @@ function App() {
     {
       text:
         "You must have a mustard seed of doubt to learn something new.",
-      author: "~Jacob Larcaball",
+      author: "~Jacob Larcabal",
     },
 
     {
@@ -132,7 +132,7 @@ function App() {
     {
       text:
         "History is the greatest story ever told, and we are its authors.",
-      author: "~Jacob Larcaball",
+      author: "~Jacob Larcabal",
     },
 
     {
@@ -144,7 +144,7 @@ function App() {
     {
       text:
         "The longer you are in an unhappy state, the easier it will be to get happy, and the harder it gets to be unhappy. Feeling bad means that you are capable of feeling equally good later.",
-      author: "~Jacob Larcaball",
+      author: "~Jacob Larcabal",
     },
 
     {
