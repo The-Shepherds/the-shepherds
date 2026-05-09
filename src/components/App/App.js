@@ -4,7 +4,7 @@ import shepherdLogo from "./shepherdLogo.jpg";
 function App() {
   return (
     <div id="app">
-      <h1>The Shepherds</h1>
+      <h1>The-Shepherds</h1>
 
       <img
         src={shepherdLogo}
