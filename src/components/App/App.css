@@ -181,6 +181,8 @@ h1 {
 .mission {
   font-size: clamp(1.55rem, 3vw, 2.3rem);
 
+  font-weight: 700;
+
   color: #8a6b00;
 
   text-align: center;
@@ -190,6 +192,8 @@ h1 {
   margin-bottom: 48px;
 
   line-height: 1.35;
+
+  letter-spacing: 0.02em;
 }
 
 .duties {
@@ -198,6 +202,8 @@ h1 {
   max-width: 850px;
 
   font-size: clamp(1.38rem, 2.3vw, 1.8rem);
+
+  font-weight: 700;
 
   color: #4f4f4f;
 
