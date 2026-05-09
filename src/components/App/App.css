@@ -2,67 +2,54 @@ body {
   margin: 0;
   background-color: #ececec;
   font-family: Georgia, serif;
+  color: #555;
 }
 
 #app {
+  min-height: 100vh;
+  padding: 32px 18px 80px;
+  box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  min-height: 100vh;
-
-  padding-top: 40px;
-  padding-bottom: 100px;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
   color: #b56500;
-
-  margin-bottom: 40px;
-
-  font-weight: 700;
-
+  margin: 20px 0 32px;
   text-align: center;
+  line-height: 1.1;
 }
 
 #heroImage {
-  width: 55%;
-  max-width: 700px;
-
+  width: min(90%, 620px);
   height: auto;
-
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
 }
 
 .quote {
-  margin-top: 60px;
-
-  width: 75%;
-  max-width: 1000px;
-
+  width: min(92%, 850px);
+  margin-top: 42px;
   text-align: center;
-
-  font-size: 2rem;
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
   font-style: italic;
-
+  line-height: 1.55;
   color: #666;
 }
 
 .verse {
-  margin-top: 10px;
-
-  font-size: 2rem;
+  margin-top: 8px;
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
   font-style: italic;
-
   color: #666;
 }
 
 .codeSection {
-  width: 80%;
-  max-width: 1200px;
-
-  margin-top: 120px;
+  width: min(92%, 900px);
+  margin-top: 78px;
 
   display: flex;
   flex-direction: column;
@@ -70,49 +57,54 @@ h1 {
 }
 
 .codeSection h2 {
-  font-size: 5rem;
-
+  font-size: clamp(2rem, 4vw, 3.4rem);
   color: #b56500;
-
   text-align: center;
-
-  line-height: 1.2;
-
-  margin-bottom: 50px;
+  line-height: 1.15;
+  margin-bottom: 28px;
 }
 
 .mission {
-  font-size: 3rem;
-
-  color: #c19100;
-
+  font-size: clamp(1.35rem, 2.8vw, 2rem);
+  color: #b8860b;
   text-align: center;
-
-  margin-bottom: 80px;
-}
-
-.gladiatorQuote {
-  font-size: 2rem;
-
-  color: #777;
-
-  margin-bottom: 80px;
-
-  line-height: 1.5;
+  margin-bottom: 48px;
+  line-height: 1.35;
 }
 
 .duties {
   width: 100%;
-
-  max-width: 1100px;
-
-  font-size: 2rem;
-
-  color: #666;
-
-  line-height: 1.8;
+  max-width: 850px;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  color: #555;
+  line-height: 1.65;
+  padding-left: 28px;
+  box-sizing: border-box;
 }
 
 .duties li {
-  margin-bottom: 30px;
+  margin-bottom: 18px;
+}
+
+.gladiatorQuote {
+  width: min(92%, 850px);
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  color: #666;
+  margin-top: 56px;
+  margin-bottom: 40px;
+  line-height: 1.65;
+}
+
+@media (max-width: 600px) {
+  #app {
+    padding-top: 24px;
+  }
+
+  .codeSection {
+    margin-top: 56px;
+  }
+
+  .duties {
+    padding-left: 22px;
+  }
 }
