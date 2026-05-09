@@ -24,7 +24,7 @@ h1 {
 }
 
 #heroImage {
-  width: min(90%, 620px);
+  width: min(45%, 310px);
   height: auto;
   border-radius: 10px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
@@ -48,25 +48,36 @@ h1 {
 }
 
 .codeSection {
-  width: min(92%, 900px);
-  margin-top: 78px;
+  width: min(92%, 950px);
+
+  margin-top: 36px;
+
+  padding: 50px 40px;
+
+  background-color: #d9d4cb;
+
+  border-radius: 18px;
+
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
 
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  box-sizing: border-box;
 }
 
 .codeSection h2 {
   font-size: clamp(2rem, 4vw, 3.4rem);
-  color: #b56500;
+  color: #9c5b00;
   text-align: center;
-  line-height: 1.15;
-  margin-bottom: 28px;
+  line-height: 1;
+  margin-bottom: 18px;
 }
 
 .mission {
   font-size: clamp(1.35rem, 2.8vw, 2rem);
-  color: #b8860b;
+  color: #8a6b00;
   text-align: center;
   margin-bottom: 48px;
   line-height: 1.35;
@@ -76,7 +87,7 @@ h1 {
   width: 100%;
   max-width: 850px;
   font-size: clamp(1.05rem, 1.8vw, 1.35rem);
-  color: #555;
+  color: #4f4f4f;
   line-height: 1.65;
   padding-left: 28px;
   box-sizing: border-box;
@@ -91,7 +102,7 @@ h1 {
   font-size: clamp(1.05rem, 1.8vw, 1.35rem);
   color: #666;
   margin-top: 56px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   line-height: 1.65;
 }
 
@@ -100,8 +111,13 @@ h1 {
     padding-top: 24px;
   }
 
+  #heroImage {
+    width: min(70%, 260px);
+  }
+
   .codeSection {
-    margin-top: 56px;
+    margin-top: 28px;
+    padding: 36px 20px;
   }
 
   .duties {

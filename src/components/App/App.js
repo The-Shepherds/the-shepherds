@@ -48,20 +48,20 @@ function App() {
             things.
           </li>
         </ol>
-
-        <p className="quote gladiatorQuote">
-          “Let us talk now, very simply as men.”
-          <br />
-          <br />
-          “There was once a dream that was Rome. You could only whisper it.
-          Anything more than a whisper and it would vanish. It was so fragile,
-          and I fear that it will not survive the winter. Let us whisper now,
-          together you and I.”
-          <br />
-          <br />
-          ~The Movie: Gladiator
-        </p>
       </section>
+
+      <p className="quote gladiatorQuote">
+        “Let us talk now, very simply as men.”
+        <br />
+        <br />
+        “There was once a dream that was Rome. You could only whisper it.
+        Anything more than a whisper and it would vanish. It was so fragile,
+        and I fear that it will not survive the winter. Let us whisper now,
+        together you and I.”
+        <br />
+        <br />
+        ~The Movie: Gladiator
+      </p>
     </main>
   );
 }
