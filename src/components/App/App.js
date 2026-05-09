@@ -29,10 +29,9 @@ function App() {
           href="https://x.com"
           target="_blank"
           rel="noreferrer"
-          className="navButton"
+          className="navButton xButton"
         >
-          <FaXTwitter className="navIcon" />
-          <span></span>
+          <FaXTwitter className="navIcon xIcon" />
         </a>
 
         <a
