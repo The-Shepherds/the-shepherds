@@ -62,11 +62,24 @@ body {
 }
 
 h1 {
+  width: 100%;
+
   font-size: clamp(2.2rem, 5vw, 3.8rem);
-  color: #b56500;
+
+  color: #f3f3f3;
+
   margin: 20px 0 32px;
+
   text-align: center;
   line-height: 1.1;
+
+  background-color: #7a4300;
+
+  padding: 22px 0;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+
+  letter-spacing: 1px;
 }
 
 #heroImage {
@@ -159,6 +172,10 @@ h1 {
 
   #heroImage {
     width: min(70%, 260px);
+  }
+
+  h1 {
+    padding: 18px 0;
   }
 
   .codeSection {
