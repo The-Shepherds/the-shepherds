@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+
 body {
   margin: 0;
   background-color: #ececec;
@@ -64,45 +66,59 @@ body {
 h1 {
   width: 100%;
 
-  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-family: "Pirata One", Georgia, serif;
+
+  font-size: clamp(3rem, 7vw, 5rem);
 
   color: #f3f3f3;
 
   margin: 20px 0 32px;
 
   text-align: center;
-  line-height: 1.1;
+
+  line-height: 1.05;
 
   background-color: #7a4300;
 
-  padding: 22px 0;
+  padding: 20px 0 26px;
 
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
 
-  letter-spacing: 1px;
+  letter-spacing: 0.05em;
 }
 
 #heroImage {
   width: min(45%, 310px);
   height: auto;
+
   border-radius: 10px;
+
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
 }
 
 .quote {
   width: min(92%, 850px);
+
   margin-top: 42px;
+
   text-align: center;
+
   font-size: clamp(1.15rem, 2vw, 1.55rem);
+
   font-style: italic;
+
   line-height: 1.55;
+
   color: #666;
 }
 
 .verse {
   margin-top: 8px;
+
   font-size: clamp(1rem, 1.8vw, 1.35rem);
+
   font-style: italic;
+
   color: #666;
 }
 
@@ -128,27 +144,41 @@ h1 {
 
 .codeSection h2 {
   font-size: clamp(2rem, 4vw, 3.4rem);
+
   color: #9c5b00;
+
   text-align: center;
+
   line-height: 1;
+
   margin-bottom: 18px;
 }
 
 .mission {
   font-size: clamp(1.35rem, 2.8vw, 2rem);
+
   color: #8a6b00;
+
   text-align: center;
+
   margin-bottom: 48px;
+
   line-height: 1.35;
 }
 
 .duties {
   width: 100%;
+
   max-width: 850px;
+
   font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+
   color: #4f4f4f;
+
   line-height: 1.65;
+
   padding-left: 28px;
+
   box-sizing: border-box;
 }
 
@@ -158,10 +188,15 @@ h1 {
 
 .gladiatorQuote {
   width: min(92%, 850px);
+
   font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+
   color: #666;
+
   margin-top: 56px;
+
   margin-bottom: 10px;
+
   line-height: 1.65;
 }
 
@@ -175,11 +210,14 @@ h1 {
   }
 
   h1 {
-    padding: 18px 0;
+    font-size: clamp(2.7rem, 11vw, 4rem);
+
+    padding: 18px 0 22px;
   }
 
   .codeSection {
     margin-top: 28px;
+
     padding: 36px 20px;
   }
 
@@ -193,7 +231,9 @@ h1 {
 
   .navButton {
     min-width: 95px;
+
     font-size: 0.9rem;
+
     padding: 8px 14px;
   }
 }
