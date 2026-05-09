@@ -303,7 +303,55 @@ const generateQuote = () => {
         <p className="mission">
           To push humanity toward a better future
         </p>
+<ol className="duties">
 
+  <li>We have a duty to humanity to survive.</li>
+
+  <li>
+    We have a duty to prioritize humanity’s prosperity.
+  </li>
+
+  <li>
+    We have a duty to understand the entirety of humanity.
+  </li>
+
+  <li>
+    We have a duty to critically think and speak.
+  </li>
+
+  <li>
+    We have a duty to never stop disciplined learning and teaching.
+  </li>
+
+  <li>
+    We have a duty to take full responsibility for all our actions.
+  </li>
+
+  <li>
+    We have a duty to understand reality as it is, not as we wish it.
+  </li>
+
+  <li>
+    We have a duty to have no deception.
+  </li>
+
+  <li>
+    We have a duty to persuade and never manipulate.
+  </li>
+
+  <li>
+    We have a duty to discover threats and imposters.
+  </li>
+
+  <li>
+    We have a duty to persist in artistic expression.
+  </li>
+
+  <li>
+    We have a duty to humanity to have moderation in the majority of things.
+  </li>
+
+</ol>
       </section>
 
       <section className="wisdomSection">
