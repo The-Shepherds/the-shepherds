@@ -1,18 +1,38 @@
 import "./App.css";
 import shepherdLogo from "./shepherdLogo.jpg";
 
+import {
+  FaYoutube,
+  FaInstagram,
+  FaFacebookF,
+} from "react-icons/fa";
+
+import { FaXTwitter } from "react-icons/fa6";
+
 function App() {
   return (
     <main id="app">
 
       <header className="topNav">
+
         <a
           href="https://rumble.com"
           target="_blank"
           rel="noreferrer"
           className="navButton"
         >
-          Rumble
+          <span className="navIcon">▶</span>
+          <span>Rumble</span>
+        </a>
+
+        <a
+          href="https://x.com"
+          target="_blank"
+          rel="noreferrer"
+          className="navButton"
+        >
+          <FaXTwitter className="navIcon" />
+          <span></span>
         </a>
 
         <a
@@ -21,7 +41,8 @@ function App() {
           rel="noreferrer"
           className="navButton"
         >
-          YouTube
+          <FaYoutube className="navIcon" />
+          <span>YouTube</span>
         </a>
 
         <a
@@ -30,7 +51,8 @@ function App() {
           rel="noreferrer"
           className="navButton"
         >
-          Instagram
+          <FaInstagram className="navIcon" />
+          <span>Instagram</span>
         </a>
 
         <a
@@ -39,8 +61,10 @@ function App() {
           rel="noreferrer"
           className="navButton"
         >
-          Facebook
+          <FaFacebookF className="navIcon" />
+          <span>Facebook</span>
         </a>
+
       </header>
 
       <h1>The Shepherds</h1>
@@ -62,26 +86,53 @@ function App() {
       <section className="codeSection">
         <h2>Code of Unlocking Human Potential</h2>
 
-        <p className="mission">To push humanity toward a better future</p>
+        <p className="mission">
+          To push humanity toward a better future
+        </p>
 
         <ol className="duties">
           <li>We have a duty to humanity to survive.</li>
-          <li>We have a duty to prioritize humanity’s prosperity.</li>
-          <li>We have a duty to understand the entirety of humanity.</li>
-          <li>We have a duty to critically think and speak.</li>
+
+          <li>
+            We have a duty to prioritize humanity’s prosperity.
+          </li>
+
+          <li>
+            We have a duty to understand the entirety of humanity.
+          </li>
+
+          <li>
+            We have a duty to critically think and speak.
+          </li>
+
           <li>
             We have a duty to never stop disciplined learning and teaching.
           </li>
+
           <li>
             We have a duty to take full responsibility for all our actions.
           </li>
+
           <li>
             We have a duty to understand reality as it is, not as we wish it.
           </li>
-          <li>We have a duty to have no deception.</li>
-          <li>We have a duty to persuade and never manipulate.</li>
-          <li>We have a duty to discover threats and imposters.</li>
-          <li>We have a duty to persist in artistic expression.</li>
+
+          <li>
+            We have a duty to have no deception.
+          </li>
+
+          <li>
+            We have a duty to persuade and never manipulate.
+          </li>
+
+          <li>
+            We have a duty to discover threats and imposters.
+          </li>
+
+          <li>
+            We have a duty to persist in artistic expression.
+          </li>
+
           <li>
             We have a duty to humanity to have moderation in the majority of
             things.
@@ -101,6 +152,7 @@ function App() {
         <br />
         ~The Movie: Gladiator
       </p>
+
     </main>
   );
 }
