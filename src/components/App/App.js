@@ -119,7 +119,7 @@ function App() {
 
     {
       text:
-        "The longer you are in an unhappy state, the easier it will be to get happy, and the harder it gets to be unhappy. Feeling bad means that you are capable of feeling equally good later.",
+        "We live in a balanced universe, so the darker your life currently is, remember there is the same potiential for light.",
       author: "~Jacob Larcabal",
     },
 
