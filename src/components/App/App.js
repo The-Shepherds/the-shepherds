@@ -4,6 +4,45 @@ import shepherdLogo from "./shepherdLogo.jpg";
 function App() {
   return (
     <main id="app">
+
+      <header className="topNav">
+        <a
+          href="https://rumble.com"
+          target="_blank"
+          rel="noreferrer"
+          className="navButton"
+        >
+          Rumble
+        </a>
+
+        <a
+          href="https://youtube.com"
+          target="_blank"
+          rel="noreferrer"
+          className="navButton"
+        >
+          YouTube
+        </a>
+
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noreferrer"
+          className="navButton"
+        >
+          Instagram
+        </a>
+
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noreferrer"
+          className="navButton"
+        >
+          Facebook
+        </a>
+      </header>
+
       <h1>The Shepherds</h1>
 
       <img
