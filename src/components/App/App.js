@@ -101,30 +101,6 @@ function App() {
 
     {
       text:
-        "Upon the subject of education, not presuming to dictate any plan or system respecting it, I can only say that I view it as the most important subject which we, as a people, can be engaged in.",
-      author: "~Abraham Lincoln",
-    },
-
-    {
-      text:
-        "Next in importance to freedom and justice is popular education, without which neither freedom nor justice can be permanently maintained.",
-      author: "~James A. Garfield",
-    },
-
-    {
-      text:
-        "America is a friend of freedom everywhere, but a custodian only of our own.",
-      author: "~John Quincy Adams",
-    },
-
-    {
-      text:
-        "For if men are to be precluded from offering their sentiments on a matter, which may involve the most serious and alarming consequences, reason is of no use to us.",
-      author: "~George Washington",
-    },
-
-    {
-      text:
         "Frustration begins where knowledge ends.",
       author: "~Clinton Anderson",
     },
@@ -149,27 +125,98 @@ function App() {
 
     {
       text:
-        "I do not think much of a man who is not wiser today than he was yesterday.",
-      author: "~Abraham Lincoln",
+        "If all animals, insects, and living things had a higher consciousness, would the world improve?\n\nI’m a horse trainer, and I strive to push the capacity of horse minds, but it’s strange to think that our world might function better when a horse is a horse, even with its limits.",
+      author: "~Stephen Burggraaf",
     },
 
     {
       text:
-        "Heroes have made poets, and poets heroes.",
-      author: "~George Washington",
+        "Don’t waste your time clinging to truth. Cling to the best option available.\n\n“Nobody knows what is finally true, by definition, but honest people make the best possible use of their experience.”",
+      author: "~Stephen Burggraaf & Maps Of Meaning",
+    },
+
+    {
+      text:
+        "Given all power, what would you do to improve our culture? School.\n\n“Upon the subject of education, not presuming to dictate any plan or system respecting it, I can only say that I view it as the most important subject which we, as a people, can be engaged in.”",
+      author: "~Stephen Burggraaf & Abraham Lincoln",
+    },
+
+    {
+      text:
+        "When variables change, we must change.\n\n“The individual who fails to modify his habits and presumptions as a consequence of change is deluding himself—is denying the world—is trying to replace reality itself with his own feeble wish.”",
+      author: "~Stephen Burggraaf & Maps Of Meaning",
+    },
+
+    {
+      text:
+        "Men pursue making sense of everything, because otherwise, everything is meaningless.\n\n“Reason or the rope.”",
+      author: "~Stephen Burggraaf & Diogenes",
+    },
+
+    {
+      text:
+        "Men must be willing to disagree with their outdated teachers and leaders.\n\n“Following in the footsteps of others seems safe, and requires no thought—but it is useless to follow a well-trodden trail when the terrain itself has changed.”",
+      author: "~Stephen Burggraaf & Maps Of Meaning",
+    },
+
+    {
+      text:
+        "Men must always back their words with intent and action.\n\n“He has a right to criticize, who has a heart to help.”",
+      author: "~Stephen Burggraaf & Abraham Lincoln",
+    },
+
+    {
+      text:
+        "People who live by the spirit of the law see that our religions are outdated for our time and culture.\n\n“Application of the letter of the law when the spirit of the law is necessary makes a mockery of culture.”",
+      author: "~Stephen Burggraaf & Maps Of Meaning",
+    },
+
+    {
+      text:
+        "Nothing is always bad in life. There are always exceptions to the rules.",
+      author: "~Stephen Burggraaf",
+    },
+
+    {
+      text:
+        "Would you rather:\n\nBe dropped off, alone on another inhabitable planet, and never contact another human again\n\nOr\n\nContinue your current existence, but lose your self-consciousness?\n\nWhy?",
+      author: "~Stephen Burggraaf",
+    },
+
+    {
+      text:
+        "Live in a manner that masculine leaders of the past would respect and envy.",
+      author: "~Stephen Burggraaf",
     },
 
   ];
 
-  const [currentQuote, setCurrentQuote] = useState(defaultQuote);
+const [currentQuote, setCurrentQuote] = useState(defaultQuote);
 
-  const generateQuote = () => {
-    const randomIndex = Math.floor(
-      Math.random() * wisdomQuotes.length
-    );
+const [unusedQuotes, setUnusedQuotes] = useState(
+  [...wisdomQuotes]
+);
 
-    setCurrentQuote(wisdomQuotes[randomIndex]);
-  };
+const generateQuote = () => {
+
+  let remainingQuotes = [...unusedQuotes];
+
+  if (remainingQuotes.length === 0) {
+    remainingQuotes = [...wisdomQuotes];
+  }
+
+  const randomIndex = Math.floor(
+    Math.random() * remainingQuotes.length
+  );
+
+  const selectedQuote = remainingQuotes[randomIndex];
+
+  remainingQuotes.splice(randomIndex, 1);
+
+  setUnusedQuotes(remainingQuotes);
+
+  setCurrentQuote(selectedQuote);
+};
 
   return (
     <main id="app">
@@ -256,56 +303,6 @@ function App() {
         <p className="mission">
           To push humanity toward a better future
         </p>
-
-        <ol className="duties">
-
-          <li>We have a duty to humanity to survive.</li>
-
-          <li>
-            We have a duty to prioritize humanity’s prosperity.
-          </li>
-
-          <li>
-            We have a duty to understand the entirety of humanity.
-          </li>
-
-          <li>
-            We have a duty to critically think and speak.
-          </li>
-
-          <li>
-            We have a duty to never stop disciplined learning and teaching.
-          </li>
-
-          <li>
-            We have a duty to take full responsibility for all our actions.
-          </li>
-
-          <li>
-            We have a duty to understand reality as it is, not as we wish it.
-          </li>
-
-          <li>
-            We have a duty to have no deception.
-          </li>
-
-          <li>
-            We have a duty to persuade and never manipulate.
-          </li>
-
-          <li>
-            We have a duty to discover threats and imposters.
-          </li>
-
-          <li>
-            We have a duty to persist in artistic expression.
-          </li>
-
-          <li>
-            We have a duty to humanity to have moderation in the majority of things.
-          </li>
-
-        </ol>
 
       </section>
 
