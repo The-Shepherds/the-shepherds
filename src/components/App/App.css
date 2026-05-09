@@ -339,7 +339,14 @@ h1 {
   }
 
   .duties {
-    padding-left: 30px;
+    padding-left: 42px;
+    padding-right: 8px;
+
+    list-style-position: outside;
+  }
+
+  .duties li {
+    padding-left: 6px;
   }
 
   .navButton {
