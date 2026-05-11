@@ -15,8 +15,8 @@ function App() {
 
   const defaultQuote = {
     text:
-      "“Let us talk now, very simply as men.”\n\n“There was once a dream that was Rome. You could only whisper it. Anything more than a whisper and it would vanish. It was so fragile, and I fear that it will not survive the winter. Let us whisper now, together you and I.”",
-    author: "~The Movie: Gladiator",
+      "“Let us talk now, very simply as men.”\n\n“There was once a dream of humanity united. You could only whisper it. Anything more than a whisper and it would vanish. It was so fragile, and I fear that it will not survive the winter. Let us whisper now, together you and I.”",
+    author: "",
   };
 
   const wisdomQuotes = [
