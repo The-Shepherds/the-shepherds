@@ -191,32 +191,32 @@ function App() {
 
   ];
 
-const [currentQuote, setCurrentQuote] = useState(defaultQuote);
+  const [currentQuote, setCurrentQuote] = useState(defaultQuote);
 
-const [unusedQuotes, setUnusedQuotes] = useState(
-  [...wisdomQuotes]
-);
-
-const generateQuote = () => {
-
-  let remainingQuotes = [...unusedQuotes];
-
-  if (remainingQuotes.length === 0) {
-    remainingQuotes = [...wisdomQuotes];
-  }
-
-  const randomIndex = Math.floor(
-    Math.random() * remainingQuotes.length
+  const [unusedQuotes, setUnusedQuotes] = useState(
+    [...wisdomQuotes]
   );
 
-  const selectedQuote = remainingQuotes[randomIndex];
+  const generateQuote = () => {
 
-  remainingQuotes.splice(randomIndex, 1);
+    let remainingQuotes = [...unusedQuotes];
 
-  setUnusedQuotes(remainingQuotes);
+    if (remainingQuotes.length === 0) {
+      remainingQuotes = [...wisdomQuotes];
+    }
 
-  setCurrentQuote(selectedQuote);
-};
+    const randomIndex = Math.floor(
+      Math.random() * remainingQuotes.length
+    );
+
+    const selectedQuote = remainingQuotes[randomIndex];
+
+    remainingQuotes.splice(randomIndex, 1);
+
+    setUnusedQuotes(remainingQuotes);
+
+    setCurrentQuote(selectedQuote);
+  };
 
   return (
     <main id="app">
@@ -224,7 +224,7 @@ const generateQuote = () => {
       <header className="topNav">
 
         <a
-          href="https://x.com"
+          href="https://x.com/theshepherds_x?s=21"
           target="_blank"
           rel="noreferrer"
           className="navButton"
@@ -233,7 +233,7 @@ const generateQuote = () => {
         </a>
 
         <a
-          href="https://youtube.com"
+          href="https://youtube.com/@theshepherdschannel?si=7Ow_vdyOfAoo02sQ"
           target="_blank"
           rel="noreferrer"
           className="navButton"
@@ -303,55 +303,57 @@ const generateQuote = () => {
         <p className="mission">
           To push humanity toward a better future
         </p>
-<ol className="duties">
 
-  <li>We have a duty to humanity to survive.</li>
+        <ol className="duties">
 
-  <li>
-    We have a duty to prioritize humanity’s prosperity.
-  </li>
+          <li>We have a duty to humanity to survive.</li>
 
-  <li>
-    We have a duty to understand the entirety of humanity.
-  </li>
+          <li>
+            We have a duty to prioritize humanity’s prosperity.
+          </li>
 
-  <li>
-    We have a duty to critically think and speak.
-  </li>
+          <li>
+            We have a duty to understand the entirety of humanity.
+          </li>
 
-  <li>
-    We have a duty to never stop disciplined learning and teaching.
-  </li>
+          <li>
+            We have a duty to critically think and speak.
+          </li>
 
-  <li>
-    We have a duty to take full responsibility for all our actions.
-  </li>
+          <li>
+            We have a duty to never stop disciplined learning and teaching.
+          </li>
 
-  <li>
-    We have a duty to understand reality as it is, not as we wish it.
-  </li>
+          <li>
+            We have a duty to take full responsibility for all our actions.
+          </li>
 
-  <li>
-    We have a duty to have no deception.
-  </li>
+          <li>
+            We have a duty to understand reality as it is, not as we wish it.
+          </li>
 
-  <li>
-    We have a duty to persuade and never manipulate.
-  </li>
+          <li>
+            We have a duty to have no deception.
+          </li>
 
-  <li>
-    We have a duty to discover threats and imposters.
-  </li>
+          <li>
+            We have a duty to persuade and never manipulate.
+          </li>
 
-  <li>
-    We have a duty to persist in artistic expression.
-  </li>
+          <li>
+            We have a duty to discover threats and imposters.
+          </li>
 
-  <li>
-    We have a duty to humanity to have moderation in the majority of things.
-  </li>
+          <li>
+            We have a duty to persist in artistic expression.
+          </li>
 
-</ol>
+          <li>
+            We have a duty to humanity to have moderation in the majority of things.
+          </li>
+
+        </ol>
+
       </section>
 
       <section className="wisdomSection">
